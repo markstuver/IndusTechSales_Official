@@ -1,0 +1,22 @@
+.button {
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 1px;
+    padding: 10px;
+}
+.button:hover {
+	opacity:.60;
+}
+.js-textarea {
+	width: 100%;
+	border: 1px solid #C0C0C0;
+}
+.mce-panel {
+    background: #f0f0f0;
+    background-repeat: repeat-x;
+    border: 1px solid #C0C0C0;
+}
+.mce-jseditor {
+    border-bottom: 0px solid #C0C0C0!important;
+}

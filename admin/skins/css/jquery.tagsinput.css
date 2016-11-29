@@ -1,0 +1,7 @@
+div.tagsinput { border:1px solid #CCC; border-radius: 4px; padding:3px; height:20px; overflow-y: hidden;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;}
+div.tagsinput span.tag { margin:2px 5px 2px 0;border: 1px solid #C5C5C5; border-radius:2px; display: block; float: left; padding: 3px; text-decoration:none; background-color: #f0f0f0;background-image: linear-gradient(to bottom, #fdfdfd, #ddd);background-repeat: repeat-x; color: #4A4A4A;font-size:12px;}
+div.tagsinput span.tag a { font-weight: bold; color: #428bca; text-decoration:none; font-size: 12px;  }
+div.tagsinput input { margin:0px; font-size: 12px; border:1px solid transparent; padding:2px; background: transparent; color: #000; outline:0px;  margin-right:5px; margin-bottom:2px; }
+div.tagsinput div { display:block; float: left; }
+.tags_clear { clear: both; width: 100%; height: 0px; }
+.not_valid {background: #FBD8DB !important; color: #90111A !important;}

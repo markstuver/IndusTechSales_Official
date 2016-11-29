@@ -1,0 +1,16 @@
+#ErrorDocument 403 /maintenance.html
+#Order deny,allow
+#Deny from all
+#Allow from 174.130.22.34
+#home :173\.191\.67\.82$
+#Dplank: 71\.28\.58\.101$
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REMOTE_ADDR} !^71\.28\.58\.101$
+RewriteCond %{REMOTE_ADDR} !^76\.188\.199\.87$
+RewriteCond %{REQUEST_URI} !^/maintenance\.html$
+RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
+RewriteRule ^(.*)$ http://industechsales.com/maintenance.html [R=307,L]
+

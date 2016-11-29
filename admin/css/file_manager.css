@@ -1,0 +1,79 @@
+body {
+	background:#fff none repeat scroll 0%;
+	color:#444444;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+	padding: 10px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+td, input {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+	color:#444444;
+}
+img {
+	border: 0px;
+}
+#url_form {
+	display: none;
+}
+#preview {
+	background-color: #EDEDED;
+	width: 400px;
+	height: 300px;
+	float: left;
+	overflow: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+#preview_top {
+	width: 410px;
+	height: 20px;
+	float: left;
+	vertical-align: top;
+}
+.uploadbutton {
+	margin-top:2px;
+}
+
+#filelist_top {
+	width: 350px;
+	height: 20px;
+	float: left;
+	text-indent: 5px;
+}
+#no_preview {
+	line-height: 290px;
+}
+#filelist {
+	padding-left: 10px;
+	width: 370px;
+	height: 300px;
+	float: left;
+	overflow: auto;
+}
+#upload {
+	width: 510px;
+	padding-top: 10px;
+	float: left;
+	line-height: 200%;
+}
+#buttons {
+	width: 270px;
+	padding-top: 75px;
+	float: left;
+	text-align: right;
+}
+a {
+	color: #444444;
+	text-decoration: underline;
+}
+a:hover {
+	color: #444444;
+	text-decoration: none;
+}
